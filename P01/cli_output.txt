@@ -1,0 +1,53 @@
+PS C:\Users\kij> ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: kr-seo
+
+Email> kij2646@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 인제 김's Account (2b71e3bc111145619950688d4940f59c)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              kij2646@gmail.com
+계정:                인제 김's Account (2b71e3bc111145619950688d4940f59c)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'C:\Program Files\IBM\Cloud\bin\ibmcloud.exe target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+PS C:\Users\kij> ibmcloud resource groups
+kij2646@gmail.com(으)로 2b71e3bc111145619950688d4940f59c 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름        ID                                 기본 그룹   상태
+MyFirstRG   606b14ede4ee47c3a92f8006120d3e3c   true        ACTIVE
+PS C:\Users\kij> ibmcloud target -g Default
+실패
+리소스 그룹을 가져올 수 없음:
+다음 오류가 발생했습니다:
+Invalid Id: Default
+
+Trace ID: 64204694305
+
+PS C:\Users\kij> ibmcloud target -g MyFirstRG
+대상 지정된 리소스 그룹 MyFirstRG
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              kij2646@gmail.com
+계정:                인제 김's Account (2b71e3bc111145619950688d4940f59c)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:
+조직:
+영역:
+PS C:\Users\kij> ibmcloud target -o kij723 -s test
+실패
+Cloud Foundry 인스턴스를 가져올 수 없음:
+Cloud Foundry API 엔드포인트를 판별할 수 없습니다. '--cf-api'를 사용하여 엔드포인트를 설정하십시오.
+
+PS C:\Users\kij>
