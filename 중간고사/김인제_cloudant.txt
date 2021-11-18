@@ -1,0 +1,33 @@
+PS C:\Users\김인제> curl {
+>>   "apikey": "jdLg0g4Qlr5Yi8-aE4x8iG3ER2e8aO2evQpsSW0KnUVe",
+>>   "host": "f972cc83-4f13-4377-a730-995484ed1afe-bluemix.cloudantnosqldb.appdomain.cloud",
+>>   "iam_apikey_description": "Auto-generated for key 0e129431-158c-4643-a8c4-9870f6ef5e9a",
+>>   "iam_apikey_name": "서비스 인증 정보-1",
+>>   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+>>   "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/2b71e3bc111145619950688d4940f59c::serviceid:ServiceId-f13f828d-a07d-4092-8f75-f67feee52312",
+>>   "url": "https://f972cc83-4f13-4377-a730-995484ed1afe-bluemix.cloudantnosqldb.appdomain.cloud",
+>>   "username": "f972cc83-4f13-4377-a730-995484ed1afe-bluemix"
+>> }_all_dbs
+위치 줄:2 문자:11
++   "apikey": "jdLg0g4Qlr5Yi8-aE4x8iG3ER2e8aO2evQpsSW0KnUVe",
++           ~
+식 또는 문에서 예기치 않은 ':' 토큰입니다.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\김인제> curl{
+>>   "apikey": "jdLg0g4Qlr5Yi8-aE4x8iG3ER2e8aO2evQpsSW0KnUVe",
+>>   "host": "f972cc83-4f13-4377-a730-995484ed1afe-bluemix.cloudantnosqldb.appdomain.cloud",
+>>   "iam_apikey_description": "Auto-generated for key 0e129431-158c-4643-a8c4-9870f6ef5e9a",
+>>   "iam_apikey_name": "서비스 인증 정보-1",
+>>   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+>>   "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/2b71e3bc111145619950688d4940f59c::serviceid:ServiceId-f13f828d-a07d-4092-8f75-f67feee52312",
+>>   "url": "https://f972cc83-4f13-4377-a730-995484ed1afe-bluemix.cloudantnosqldb.appdomain.cloud",
+>>   "username": "f972cc83-4f13-4377-a730-995484ed1afe-bluemix"
+>> }query-demo-gui/all_docs?include_docs=true
+위치 줄:2 문자:11
++   "apikey": "jdLg0g4Qlr5Yi8-aE4x8iG3ER2e8aO2evQpsSW0KnUVe",
++           ~
+식 또는 문에서 예기치 않은 ':' 토큰입니다.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
