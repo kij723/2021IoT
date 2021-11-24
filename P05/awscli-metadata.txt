@@ -1,0 +1,11 @@
+PS C:\Users\김인제\desktop> aws --profile default --endpoint-url https://s3.jp-tok.cloud-object-storage.appdomain.cloud s3api head-object --bucket bucket-kij01 --key dars.png
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2021-11-18T08:05:47+00:00",
+    "ContentLength": 2747,
+    "ETag": "\"d3bb9786a4adeeafb731f585a6a7290d\"",
+    "ContentType": "image/png",
+    "Metadata": {
+        "work": "IBM"
+    }
+}
