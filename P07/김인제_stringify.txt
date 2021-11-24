@@ -1,0 +1,4 @@
+0JSON.stringify() will remove any functions from an object.
+Convert functions into strings to keep them in the JSON object.
+
+{"name":"KIJ","age":"function () {return 25;}","city":"South Korea"}
