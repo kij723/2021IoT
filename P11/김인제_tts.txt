@@ -1,0 +1,5 @@
+synthesize(req.query)
+텍스트를 지정된 음성으로 텍스트에 합성해주는 함수
+
+transcript.pipe(res)
+음성파일을 파이프 하는 함수

@@ -1,0 +1,6 @@
+kij2646@cloudshell:~$ curl -X GET -u "apikey:vXADsx8wz6FxByKzhv2--42Yscg4t2F5UNgIjZyd5-4j" --output korean.wav "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/693f9fc1-dfe2-4da2-9382-71d680afd78e/v1/synthesize?accept=audio%2Fwav&text=%ED%8C%8C%EC%9D%BC%20%EB%B3%B4%EB%83%85%EB%8B%88%EB%8B%A4&voice=ko-KR_YunaVoice"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 53038    0 53038    0     0  76978      0 --:--:-- --:--:-- --:--:-- 77090
+kij2646@cloudshell:~$ ls -l korean.wav
+-rw-rw-r-- 1 kij2646 user 53038 Dec  8 22:36 korean.wav
